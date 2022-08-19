@@ -6,10 +6,12 @@ class Field:
     def __init__(self, value: str) -> None:
         self.value = value
 
+
 class Name(Field):
 
     def __init__(self, value: str) -> None:
         super().__init__(value)
+
 
 class Phone(Field):
     def __init__(self, value: str) -> None:
